@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  calculator
-
-  Created by 윤요한 on 8/21/25.
-  
-*/
+"tab.home" = "Home";
+"tab.calculate" = "Calculate";
+"tab.scenarios" = "Scenarios";
+"tab.settings" = "Settings";
+"calc.basic" = "Basic Calculator";
+"calc.real" = "Real-World Calculator";
+"calc.deep" = "Deep Calculator";

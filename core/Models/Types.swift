@@ -1,8 +1,3 @@
-//
-//  Types.swift
-//  calculator
-//
-//  Created by 윤요한 on 8/21/25.
-//
-
 import Foundation
+enum Compounding: Int { case yearly = 1, quarterly = 4, monthly = 12 }
+enum ContributionTiming { case start, end }

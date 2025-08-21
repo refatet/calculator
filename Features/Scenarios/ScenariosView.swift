@@ -1,8 +1,9 @@
-//
-//  ScenariosView.swift
-//  calculator
-//
-//  Created by 윤요한 on 8/21/25.
-//
-
-import Foundation
+import SwiftUI
+struct ScenariosView: View {
+    var body: some View {
+        NavigationStack {
+            Text("No scenarios yet")
+                .navigationTitle(NSLocalizedString("tab.scenarios", comment: ""))
+        }
+    }
+}

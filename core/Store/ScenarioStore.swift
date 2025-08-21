@@ -1,8 +1,12 @@
-//
-//  ScenarioStore.swift
-//  calculator
-//
-//  Created by 윤요한 on 8/21/25.
-//
-
 import Foundation
+import Combine
+
+struct Scenario: Identifiable, Codable {
+    var id = UUID()
+    var name: String
+    var createdAt: Date
+}
+
+final class ScenarioStore: ObservableObject {
+    @Published var items: [Scenario] = []
+}

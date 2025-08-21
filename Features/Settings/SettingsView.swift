@@ -1,8 +1,9 @@
-//
-//  SettingsView.swift
-//  calculator
-//
-//  Created by 윤요한 on 8/21/25.
-//
-
-import Foundation
+import SwiftUI
+struct SettingsView: View {
+    var body: some View {
+        NavigationStack {
+            Form { Text("Settings placeholder") }
+                .navigationTitle(NSLocalizedString("tab.settings", comment: ""))
+        }
+    }
+}
