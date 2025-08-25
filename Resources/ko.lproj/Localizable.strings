@@ -5,3 +5,16 @@
 "calc.basic" = "기본 계산기";
 "calc.real" = "현실적 계산기";
 "calc.deep" = "심층 계산기";
+"inputs.title" = "입력값";
+"view.results" = "결과 보기";
+"results.title" = "결과";
+"results.final" = "최종금액(명목)";
+"results.contrib" = "총 납입액";
+"results.contrib.subtitle" = "납입액 합계";
+"results.growth" = "총 수익";
+"results.growth.subtitle" = "이자/수익";
+
+"chart.growth_line.title" = "시간에 따른 잔고";
+"chart.split_donut.title" = "납입 vs 수익 비중";
+"chart.contribution" = "납입";
+"chart.growth" = "수익";

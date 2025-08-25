@@ -19,6 +19,10 @@
 		828440992E5748EF00D2FAC0 /* Claculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828440982E5748EF00D2FAC0 /* Claculator.swift */; };
 		8284409B2E57490D00D2FAC0 /* ScenarioStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284409A2E57490D00D2FAC0 /* ScenarioStore.swift */; };
 		828440A02E574B0400D2FAC0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8284409E2E574B0400D2FAC0 /* Localizable.strings */; };
+		82B19EAC2E5C61AA002921E8 /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B19EAB2E5C61AA002921E8 /* Inputs.swift */; };
+		82B19EAD2E5C6AEB002921E8 /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B19EAB2E5C61AA002921E8 /* Inputs.swift */; };
+		82B19EAE2E5C6AF8002921E8 /* Claculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828440982E5748EF00D2FAC0 /* Claculator.swift */; };
+		82B19EB02E5C786C002921E8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B19EAF2E5C786C002921E8 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,27 +59,11 @@
 		8284409A2E57490D00D2FAC0 /* ScenarioStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioStore.swift; sourceTree = "<group>"; };
 		8284409F2E574B0400D2FAC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		828440A12E574B2400D2FAC0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82B19EAB2E5C61AA002921E8 /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		82B19EAF2E5C786C002921E8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8284409D2E574A3800D2FAC0 /* Exceptions for "calculator" folder in "calculator" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8284403C2E571DFF00D2FAC0 /* calculator */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8284403F2E571DFF00D2FAC0 /* calculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8284409D2E574A3800D2FAC0 /* Exceptions for "calculator" folder in "calculator" target */,
-			);
-			path = calculator;
-			sourceTree = "<group>";
-		};
 		8284404D2E571E0100D2FAC0 /* calculatorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = calculatorTests;
@@ -120,7 +108,6 @@
 				828440832E57465E00D2FAC0 /* Resources */,
 				828440812E57464D00D2FAC0 /* core */,
 				8284407F2E57462F00D2FAC0 /* App */,
-				8284403F2E571DFF00D2FAC0 /* calculator */,
 				8284404D2E571E0100D2FAC0 /* calculatorTests */,
 				828440572E571E0100D2FAC0 /* calculatorUITests */,
 				8284403E2E571DFF00D2FAC0 /* Products */,
@@ -189,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				8284408D2E5747CD00D2FAC0 /* CalculateView.swift */,
+				82B19EAF2E5C786C002921E8 /* ResultView.swift */,
 			);
 			path = Calculate;
 			sourceTree = "<group>";
@@ -213,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				828440962E5748D400D2FAC0 /* Types.swift */,
+				82B19EAB2E5C61AA002921E8 /* Inputs.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -247,9 +236,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8284403F2E571DFF00D2FAC0 /* calculator */,
 			);
 			name = calculator;
 			packageProductDependencies = (
@@ -383,7 +369,9 @@
 				828440922E57480D00D2FAC0 /* SettingsView.swift in Sources */,
 				828440772E57301900D2FAC0 /* calculatorApp.swift in Sources */,
 				8284408E2E5747CD00D2FAC0 /* CalculateView.swift in Sources */,
+				82B19EAC2E5C61AA002921E8 /* Inputs.swift in Sources */,
 				828440972E5748D400D2FAC0 /* Types.swift in Sources */,
+				82B19EB02E5C786C002921E8 /* ResultView.swift in Sources */,
 				828440902E5747F100D2FAC0 /* ScenariosView.swift in Sources */,
 				8284409B2E57490D00D2FAC0 /* ScenarioStore.swift in Sources */,
 				8284408C2E5747A300D2FAC0 /* HomeView.swift in Sources */,
@@ -397,6 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B19EAD2E5C6AEB002921E8 /* Inputs.swift in Sources */,
+				82B19EAE2E5C6AF8002921E8 /* Claculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,9 +551,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = calculator/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -589,9 +580,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = calculator/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -616,6 +608,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -634,6 +627,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;

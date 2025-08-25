@@ -5,3 +5,16 @@
 "calc.basic" = "Basic Calculator";
 "calc.real" = "Real-World Calculator";
 "calc.deep" = "Deep Calculator";
+"inputs.title" = "Inputs";
+"view.results" = "View Results";
+"results.title" = "Results";
+"results.final" = "Final (Nominal)";
+"results.contrib" = "Total Contributions";
+"results.contrib.subtitle" = "Sum of deposits";
+"results.growth" = "Total Growth";
+"results.growth.subtitle" = "Earnings";
+
+"chart.growth_line.title" = "Balance over time";
+"chart.split_donut.title" = "Contributions vs Growth";
+"chart.contribution" = "Contribution";
+"chart.growth" = "Growth";
